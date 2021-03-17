@@ -1,0 +1,52 @@
+body {
+  font-color: black;
+  font-family: "Cormorant", serif;
+  text-align: center;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
+#page1 {
+  background-image: url("img/jumbo2.jpg");
+  background-size: cover;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-color: black;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid black;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url("img/jumbo2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.card {
+  text-align: center;
+  height: 450px;
+}
+a.card {
+  hover: black;
+}
+.cards {
+  background-color: lightgray;
+}
+.cards-img-top {
+  height: 10px;
+}
