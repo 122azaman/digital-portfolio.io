@@ -1,22 +1,20 @@
 body {
-  font-color: black;
+  color: black;
   font-family: "Cormorant", serif;
   text-align: center;
 }
-
-.topnav {
-  background-color: transparent;
-  overflow: hidden;
-}
-#page1 {
-  background-color: transparent;
+.top {
+  background-image: url("img/jumbo.jpg");
+  height: 500px;
   background-size: cover;
 }
-
+.name {
+  color: white;
+}
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -24,19 +22,9 @@ body {
   font-color: black;
   border-bottom: 3px solid transparent;
 }
-
 .topnav a:hover {
   border-bottom: 3px solid black;
 }
-
-.jumbotron {
-  text-align: center;
-  background-image: url("img/jumbo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 800px;
-}
-
 .card {
   text-align: center;
   height: 450px;
