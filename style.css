@@ -5,7 +5,7 @@ body {
 }
 .top {
   background-image: url("img/jumbo.jpg");
-  height: 500px;
+  height: 600px;
   background-size: cover;
 }
 .name {
@@ -19,7 +19,6 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-color: black;
   border-bottom: 3px solid transparent;
 }
 .topnav a:hover {
@@ -28,13 +27,24 @@ body {
 .card {
   text-align: center;
   height: 450px;
+  border-radius: 15px;
 }
-a.card {
-  hover: black;
+h3 {
+  color: rgb(230, 75, 65);
+  text-decoration: none;
 }
-.cards {
-  background-color: lightgray;
+h3:hover {
+  color: rgb(170, 15, 5);
+  text-decoration: underline rgb(200, 45, 35);
+}
+.colors {
+  background-color: rgb(220, 230, 245);
 }
 .cards-img-top {
   height: 10px;
 }
+table {
+  text-align: center;
+}
+230, 235, 240
+235, 200, 210
