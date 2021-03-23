@@ -38,7 +38,7 @@ h3:hover {
   text-decoration: underline rgb(200, 45, 35);
 }
 .colors {
-  background-color: rgb(220, 230, 245);
+  background-color: rgb(180, 175, 195);
 }
 .cards-img-top {
   height: 10px;
@@ -46,5 +46,13 @@ h3:hover {
 table {
   text-align: center;
 }
-230, 235, 240
+td {
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+220, 230, 245
 235, 200, 210
+160, 175, 185
